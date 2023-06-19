@@ -53,6 +53,20 @@
         };
     };
 
+    behaviors {
+        shift_lang: shift_lang {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SHIFT_LANG";
+            bindings =
+                <&kp>,
+                <&lang>;
+
+            #binding-cells = <2>;
+            hold-trigger-key-positions = <43>;
+            tapping-term-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
