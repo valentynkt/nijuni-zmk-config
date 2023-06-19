@@ -14,8 +14,7 @@
 #define LWR 1
 #define RSE 2
 #define ADJ 3
-#define GME 4
-#define GLR 5
+
 
 &lt {
     quick-tap-ms = <200>;
@@ -64,6 +63,15 @@
             #binding-cells = <2>;
             hold-trigger-key-positions = <43>;
             tapping-term-ms = <200>;
+        };
+    };
+    
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        tri_layer {
+            if-layers = <LWR RSE>;
+            then-layer = <ADJ>;
         };
     };
 
