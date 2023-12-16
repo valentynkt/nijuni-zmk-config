@@ -21,8 +21,8 @@ include:
 #    name: ["Jorne Alps", "Sporne", "RT-22"]
 #  - board: nrfmicro_13_52833
 #    shield: radpad
-  - board: [jorian840_left, jorian840_right]
-    name: ["wEnki44"]
+#  - board: [jorian840_left, jorian840_right]
+#    name: ["wEnki44"]
 #    name: ["Jorian840 Omron", "Jorian840 Cobalt", "wEnki44"]
 #  - board: [skean_left, skean_right]
 #    name: ["Skean T1", "Skean Alps", "Skean MA", "Skean Zilent", "Skean DG"]
