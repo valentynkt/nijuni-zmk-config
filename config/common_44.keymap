@@ -106,9 +106,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LEFT_WIN  &none  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND      &kp PIPE       &kp UNDERSCORE  &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR  &kp F11          &mt RGUI F12
-              &none  &kp SEMICOLON   &kp COLON        &kp MINUS         &kp N0             &kp FSLH           &kp BACKSLASH  &kp NUMBER_1    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL   &mt RCTRL MINUS
-              &none  &kp NUMBER_6    &kp N7           &kp N8            &kp NUMBER_9       &kp PLUS           &kp LS(ASTRK)  &kp NUMBER_2    &kp NUMBER_3          &kp NUMBER_4           &kp N5      &trans
+&kp LEFT_WIN  &none  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND      &kp PIPE       &kp UNDERSCORE  &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR  &none  &none
+              &none  &kp SEMICOLON   &kp COLON        &kp MINUS         &kp N0             &kp FSLH           &kp BACKSLASH  &kp NUMBER_1    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL   &none
+              &none  &kp NUMBER_6    &kp N7           &kp N8            &kp NUMBER_9       &kp PLUS           &kp LS(ASTRK)  &kp NUMBER_2    &kp NUMBER_3          &kp NUMBER_4           &kp N5      &none
                                                       &mo 0             &kp LEFT_SHIFT     &lt 0 BACKSPACE    &kp SPACE      &lt 0 ENTER     &mo 0
             >;
         };
