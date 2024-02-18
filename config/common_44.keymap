@@ -76,6 +76,19 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Bootloader_Reset {
+            bindings = <&bootloader>;
+            key-positions = <0 13>;
+            layers = <2>;
+            slow-release;
+            timeout-ms = <5000>;
+            require-prior-idle-ms = <10000>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -90,7 +103,7 @@
 
             bindings = <
 &kp LEFT_WIN  &kp ESCAPE        &kp Q  &kp W  &kp F         &kp P           &kp B              &kp J      &kp L        &kp U      &kp Y    &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT        &prtscr_lock
-              &sl 3             &kp A  &kp R  &kp S         &kp T           &kp G              &kp H      &kp J        &kp K      &kp L    &kp SEMI                        &mt COLON SEMI
+              &sl 2             &kp A  &kp R  &kp S         &kp T           &kp G              &kp H      &kp J        &kp K      &kp L    &kp SEMI                        &mt COLON SEMI
               &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp D           &kp V              &kp M      &kp H        &kp COMMA  &kp DOT  &mt QUESTION FSLH               &kp RIGHT
                                               &kp LEFT_ALT  &sk LEFT_SHIFT  &lt 2 BACKSPACE    &kp SPACE  &lt 1 ENTER  &kp TAB
             >;
@@ -114,7 +127,7 @@
         };
 
         nav_layer {
-            label = "NUM";
+            label = "NAV";
 
             // -----------------------------------------------------------------------------------------
             // |     | NMLK |  /  |  7  |  8  |  9  |  -  |   | VOLU| HOME| PRSC| PGUP| SCLK| CLCK|     |
@@ -124,8 +137,8 @@
 
             bindings = <
 &trans  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none      &kp PAGE_UP     &none           &none         &kp HOME   &kp DELETE  &trans
-        &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none
-        &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &none      &kp PAGE_DOWN   &none           &none         &kp END    &none
+        &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &bt BT_NXT
+        &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &none      &kp PAGE_DOWN   &none           &none         &kp END    &bt BT_PRV
                                 &trans   &trans   &lt 0 BACKSPACE    &kp SPACE  &lt 0 ENTER     &kp TAB
             >;
         };
