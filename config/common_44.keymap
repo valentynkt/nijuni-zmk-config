@@ -89,9 +89,9 @@
             //                           | RSE | SPC | LWR |   | LWR | BKSP | RSE |
 
             bindings = <
-&kp LEFT_WIN  &kp ESCAPE        &kp Q  &kp W  &kp F         &kp P           &kp B              &kp J      &kp L        &kp U      &kp Y    &mt DOUBLE_QUOTES SINGLE_QUOTE  &sl 3      &prtscr_lock
-              &kp GLOBE         &kp A  &kp R  &kp S         &kp T           &kp G              &kp H      &kp J        &kp K      &kp L    &kp SEMI                        &kp SQT
-              &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp D           &kp V              &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH                        &kp RCTRL
+&kp LEFT_WIN  &kp ESCAPE        &kp Q  &kp W  &kp F         &kp P           &kp B              &kp J      &kp L        &kp U      &kp Y    &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT        &prtscr_lock
+              &sl 3             &kp A  &kp R  &kp S         &kp T           &kp G              &kp H      &kp J        &kp K      &kp L    &kp SEMI                        &mt COLON SEMI
+              &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp D           &kp V              &kp M      &kp H        &kp COMMA  &kp DOT  &mt QUESTION FSLH               &kp RIGHT
                                               &kp LEFT_ALT  &sk LEFT_SHIFT  &lt 2 BACKSPACE    &kp SPACE  &lt 1 ENTER  &kp TAB
             >;
         };
