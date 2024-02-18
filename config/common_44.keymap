@@ -123,10 +123,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &kp EQUAL     &kp PAGE_UP     &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE  &kp CAPS  &trans
-        &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &kp MINUS     &kp LEFT_ARROW  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none
-        &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &kp NUMBER_0  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp BSLH   &none
-                                &trans   &trans   &lt 0 BACKSPACE    &kp SPACE     &lt 0 ENTER     &kp TAB
+&trans  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none      &kp PAGE_UP     &none           &none         &kp HOME   &kp DELETE  &trans
+        &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none
+        &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &none      &kp PAGE_DOWN   &none           &none         &kp END    &none
+                                &trans   &trans   &lt 0 BACKSPACE    &kp SPACE  &lt 0 ENTER     &kp TAB
             >;
         };
 
