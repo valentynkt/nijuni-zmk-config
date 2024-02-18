@@ -82,7 +82,7 @@
         Bootloader_Reset {
             bindings = <&bootloader>;
             key-positions = <0 13>;
-            layers = <2>;
+            layers = <2 0>;
             slow-release;
             timeout-ms = <5000>;
             require-prior-idle-ms = <10000>;
