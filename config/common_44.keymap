@@ -123,10 +123,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans  &kp KP_NUM  &kp KP_SLASH  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE  &kp CAPS         &trans
-        &kp F1      &kp F2        &kp F3     &kp F4     &kp F5     &kp F6          &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &mt RCTRL K_APP
-        &kp F7      &kp F8        &kp F9     &kp F10    &kp F11    &kp F12         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BSLH   &trans
-                                             &trans     &trans     &lt 3 RET       &lt 3 ESC     &trans        &trans
+&trans  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &kp EQUAL     &kp PAGE_UP     &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE  &kp CAPS  &trans
+        &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &kp MINUS     &kp LEFT_ARROW  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none
+        &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &kp NUMBER_0  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp BSLH   &none
+                                &trans   &trans   &lt 0 BACKSPACE    &kp SPACE     &lt 0 ENTER     &kp TAB
             >;
         };
 
