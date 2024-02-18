@@ -106,10 +106,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp UNDER       &kp F1    &kp F2  &kp F3     &kp F4    &kp F5       &kp HOME  &kp UP           &kp PG_UP      &kp F9    &kp F10   &kp F11          &mt RGUI F12
-        &mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH   &kp DLLR  &kp PRCNT    &kp LEFT  &kp DOWN         &kp RIGHT      &kp LPAR  &kp RPAR  &mt RCTRL MINUS
-        &mt LALT EQUAL  &kp N1    &kp N2  &kp N3     &kp N4    &kp N5       &kp END   &kp PRINTSCREEN  &kp PAGE_DOWN  &kp N9    &kp N0    &trans
-                                          &lt 3 TAB  &trans    &trans       &trans    &trans           &lt 3 DEL
+&kp LEFT_WIN  &none  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND      &kp PIPE       &kp UP           &kp PG_UP      &kp F9    &kp F10   &kp F11          &mt RGUI F12
+              &none  &kp SEMICOLON   &kp FSLH         &kp MINUS         &kp N0             &kp COLON          &kp BACKSLASH  &kp DOWN         &kp RIGHT      &kp LPAR  &kp RPAR  &mt RCTRL MINUS
+              &none  &kp NUMBER_6    &kp N7           &kp N8            &kp NUMBER_9       &kp PLUS           &kp END        &kp PRINTSCREEN  &kp PAGE_DOWN  &kp N9    &kp N0    &trans
+                                                      &mo 0             &kp LEFT_SHIFT     &lt 0 BACKSPACE    &kp SPACE      &lt 0 ENTER      &mo 0
             >;
         };
 
@@ -140,10 +140,10 @@
             //                          |     |     |     |   |     |     |     |
 
             bindings = <
-&bt BT_CLR  &bootloader   &sys_reset    &none              &none         &none         &none           &none         &none         &none         &none              &sys_reset    &bootloader   &bt BT_CLR
-            &none         &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1       &bt BT_SEL 0  &none
-            &out OUT_TOG  &none         &ext_power EP_TOG  &none         &none         &none           &none         &none         &none         &ext_power EP_TOG  &none         &out OUT_TOG
-                                                           &trans        &none         &trans          &trans        &none         &trans
+&none  &kp F1        &kp F2        &kp F3             &kp F4        &kp F5        &kp F6          &kp F7        &kp F8        &kp F9        &kp F10            &kp F11       &kp F12       &none
+       &none         &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1       &bt BT_SEL 0  &none
+       &out OUT_TOG  &none         &ext_power EP_TOG  &none         &none         &none           &none         &none         &none         &ext_power EP_TOG  &none         &out OUT_TOG
+                                                      &trans        &none         &trans          &trans        &none         &trans
             >;
         };
     };
