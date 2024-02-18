@@ -67,14 +67,7 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri_layer {
-            if-layers = <LWR RSE>;
-            then-layer = <ADJ>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     combos {
         compatible = "zmk,combos";
@@ -85,7 +78,7 @@
             layers = <2 0>;
             slow-release;
             timeout-ms = <5000>;
-            require-prior-idle-ms = <10000>;
+            require-prior-idle-ms = <5>;
         };
 
         bootloader_reset2 {
