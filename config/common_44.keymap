@@ -87,6 +87,15 @@
             timeout-ms = <5000>;
             require-prior-idle-ms = <10000>;
         };
+
+        bootloader_reset2 {
+            bindings = <&bootloader>;
+            key-positions = <0 1 14 13 12 25>;
+            slow-release;
+            require-prior-idle-ms = <5000>;
+            timeout-ms = <3000>;
+            layers = <0 2 1 3>;
+        };
     };
 
     keymap {
@@ -136,10 +145,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none      &kp PAGE_UP     &none           &none         &kp HOME   &kp DELETE  &trans
-        &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &bt BT_NXT
-        &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &none      &kp PAGE_DOWN   &none           &none         &kp END    &bt BT_PRV
-                                &trans   &trans   &lt 0 BACKSPACE    &kp SPACE  &lt 0 ENTER     &kp TAB
+&none  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none      &kp PAGE_UP     &none           &none         &kp HOME   &kp DELETE  &trans
+       &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &bt BT_NXT
+       &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &none      &kp PAGE_DOWN   &none           &none         &kp END    &bt BT_PRV
+                               &trans   &trans   &lt 0 BACKSPACE    &kp SPACE  &lt 0 ENTER     &kp TAB
             >;
         };
 
