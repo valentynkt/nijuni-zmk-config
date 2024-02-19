@@ -105,6 +105,15 @@
             require-prior-idle-ms = <5000>;
             slow-release;
         };
+
+        bootloader_reset6 {
+            bindings = <&none>;
+            key-positions = <26 14>;
+            slow-release;
+            timeout-ms = <3000>;
+            require-prior-idle-ms = <4000>;
+            layers = <0 1 3 2>;
+        };
     };
 
     keymap {
@@ -121,7 +130,7 @@
 
             bindings = <
 &kp LEFT_WIN  &kp ESCAPE        &kp Q  &kp W  &kp F         &kp P           &kp B              &kp J      &kp L        &kp U      &kp Y    &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT        &prtscr_lock
-              &sl 2             &kp A  &kp R  &kp S         &kp T           &kp G              &kp H      &kp J        &kp K      &kp L    &kp SEMI                        &mt COLON SEMI
+              &sl 2             &kp A  &kp R  &kp S         &kp T           &kp G              &kp K      &kp N        &kp E      &kp I    &kp O                           &mt COLON SEMI
               &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp D           &kp V              &kp M      &kp H        &kp COMMA  &kp DOT  &mt QUESTION FSLH               &kp RIGHT
                                               &kp LEFT_ALT  &sk LEFT_SHIFT  &lt 2 BACKSPACE    &kp SPACE  &lt 1 ENTER  &kp TAB
             >;
