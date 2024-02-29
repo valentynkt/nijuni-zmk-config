@@ -130,8 +130,8 @@
 
             bindings = <
 &kp LEFT_WIN  &kp ESCAPE        &kp Q  &kp W  &kp F         &kp P           &kp B              &kp J      &kp L        &kp U      &kp Y    &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT        &prtscr_lock
-              &sl 2             &kp A  &kp R  &kp S         &kp T           &kp G              &kp K      &kp N        &kp E      &kp I    &kp O                           &mt COLON SEMI
-              &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp D           &kp V              &kp M      &kp H        &kp COMMA  &kp DOT  &mt QUESTION FSLH               &kp RIGHT
+              &sl 2             &kp A  &kp R  &kp S         &kp T           &kp G              &kp M      &kp N        &kp E      &kp I    &kp O                           &mt COLON SEMI
+              &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp D           &kp V              &kp K      &kp H        &kp COMMA  &kp DOT  &mt QUESTION FSLH               &kp RIGHT
                                               &kp LEFT_ALT  &sk LEFT_SHIFT  &lt 2 BACKSPACE    &kp SPACE  &lt 1 ENTER  &kp TAB
             >;
         };
@@ -163,7 +163,7 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&bootloader  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none      &kp PAGE_UP     &none           &none         &kp HOME   &kp DELETE  &bootloader
+&bootloader  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none      &kp PAGE_UP     &bt BT_CLR_ALL  &none         &kp HOME   &kp DELETE  &bootloader
              &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &bt BT_NXT
              &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &none      &kp PAGE_DOWN   &none           &none         &kp END    &bt BT_PRV
                                      &trans   &trans   &lt 0 BACKSPACE    &kp SPACE  &lt 0 ENTER     &kp TAB
@@ -184,6 +184,15 @@
        &none         &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1       &bt BT_SEL 0  &none
        &out OUT_TOG  &none         &ext_power EP_TOG  &none         &none         &none           &none         &none         &none         &ext_power EP_TOG  &none         &out OUT_TOG
                                                       &trans        &none         &trans          &trans        &none         &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
