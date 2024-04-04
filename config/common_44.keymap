@@ -148,7 +148,7 @@
             bindings = <
 &kp LEFT_WIN  &none  &kp SLASH      &kp NON_US_BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND     &kp PIPE         &kp UNDERSCORE  &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR  &none  &none
               &none  &kp SEMICOLON  &kp COLON             &kp MINUS         &kp N0             &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp NUMBER_1    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL   &none
-              &none  &kp NUMBER_6   &kp N7                &kp N8            &kp NUMBER_9       &kp PLUS          &kp LS(ASTRK)    &kp NUMBER_2    &kp NUMBER_3          &kp NUMBER_4           &kp N5      &none
+              &none  &kp NUMBER_6   &kp N7                &kp N8            &kp NUMBER_9       &kp PLUS          &kp ASTRK        &kp NUMBER_2    &kp NUMBER_3          &kp NUMBER_4           &kp N5      &none
                                                           &kp HASH          &kp COLON          &kp SEMICOLON     &none            &none           &none
             >;
         };
