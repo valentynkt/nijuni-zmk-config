@@ -163,10 +163,10 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&bootloader  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none      &kp PAGE_UP     &bt BT_CLR_ALL  &none         &kp HOME   &kp DELETE  &bootloader
-             &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &bt BT_NXT
-             &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &none      &kp PAGE_DOWN   &none           &none         &kp END    &bt BT_PRV
-                                     &trans   &trans   &lt 0 BACKSPACE    &kp SPACE  &lt 0 ENTER     &kp TAB
+&none  &none  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none      &kp PAGE_UP     &bt BT_CLR_ALL  &none         &kp HOME   &kp DELETE  &none
+       &none  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &bt BT_NXT
+       &none  &kp F9  &kp F10  &kp F11  &kp F12  &none              &none      &kp PAGE_DOWN   &none           &none         &kp END    &bt BT_PRV
+                               &trans   &trans   &lt 0 BACKSPACE    &kp SPACE  &lt 0 ENTER     &kp TAB
             >;
         };
 
